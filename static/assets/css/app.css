@@ -17,15 +17,15 @@ main {
 }
 
 :root {
-  --background: 17 24 39;
-  --card: 36 43 58;
-  --muted: 107 114 128;
-  --secondary: 156 163 175;
-  --foreground: 209 213 219;
-  --focused: 31 41 55;
-  --primary: 255 255 255;
-  --accent: 4 120 87;
-  --danger: 220 38 38;
+  --background: 255 255 255;   /* white background */
+  --card: 243 244 246;         /* light gray card */
+  --muted: 156 163 175;        /* gray text (lighter than bg but muted) */
+  --secondary: 107 114 128;    /* darker gray secondary */
+  --foreground: 31 41 55;      /* dark text */
+  --focused: 229 231 235;      /* light focus state */
+  --primary: 17 24 39;         /* nearly black primary text */
+  --accent: 4 120 87;          /* keep accent green */
+  --danger: 220 38 38;         /* keep danger red */
 }
 
 /* Additional classes */
